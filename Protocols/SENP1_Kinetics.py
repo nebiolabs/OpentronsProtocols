@@ -9,7 +9,7 @@ metadata = {
 #preforms SENP1 cleavage kinetics assay for up to one plate of formulations
 
 # Number of formulations (max 12)
-NumForms = 11
+NumForms = 12
 # RecA Volume (uL)
 RAVol = 40
 # SENP1 Volume (uL)
