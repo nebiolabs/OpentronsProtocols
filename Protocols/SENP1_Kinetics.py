@@ -8,7 +8,7 @@ metadata = {
 }
 #preforms SENP1 cleavage kinetics assay for up to one plate of formulations
 
-# Number of formulations (max 10 rn)
+# Number of formulations (max 12)
 NumForms = 11
 # RecA Volume (uL)
 RAVol = 40
@@ -51,7 +51,7 @@ def run(ctx):
 
     #BEGIN PROTOCOL  
     #Each time point 10 minutes apart (-8 sec delay per other formulation)
-    delay = 10/NumForms - .08*NumForms
+    delay = 10/NumForms - .06*NumForms
     #start plates
     for n in range(NumForms):
         formstart(n)
