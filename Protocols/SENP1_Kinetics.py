@@ -50,8 +50,8 @@ def run(ctx):
 
 
     #BEGIN PROTOCOL  
-    #Each time point 10 minutes apart (-8 sec delay per other formulation)
-    delay = 10/NumForms - .06*NumForms
+    #Each time point 10 minutes apart (-6.9 sec delay per other formulation)
+    delay = 10/NumForms - .069*NumForms
     #start plates
     for n in range(NumForms):
         formstart(n)
