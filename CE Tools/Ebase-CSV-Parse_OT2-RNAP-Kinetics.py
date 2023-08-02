@@ -128,11 +128,11 @@ def Print2Enzyme(CSV, timepoints, labels, name, SheetName1, SheetName2):
 #To print to Excel file, Run appropriate "PrintXEnzyme" function as follows:
 
 Timepoints = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-Labels = ["Label1", "Label2", "Label3", "Label4"]
+Labels = ["Label1", "Label2", "Label3", "Label4"] # or [..., "Label5", "Label6", "Label7", "Label8"] for 1 enzyme
 CSVFiles = [r"Plate1.csv", r"Plate2.csv"]
-Excel = "Results.xlsx"
-Sheet1 = "Raw data sheet name"
-Sheet2 = "Analyzed data sheet name"
+Excel = "ExcelName.xlsx"
+Sheet1 = "Raw Data sheet name"
+Sheet2 = "Analyzed Data sheet name"
 
 Print2Enzyme(CSVFiles, Timepoints, Labels, Excel, Sheet1, Sheet2)
 
