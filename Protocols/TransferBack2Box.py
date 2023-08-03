@@ -1,9 +1,9 @@
 from opentrons import protocol_api
 
 metadata = {
-    'apiLevel': '2.3',
-    'protocolName': 'simple protocol',
-    'author': 'Will'
+    'apiLevel': '2.13',
+    'protocolName': 'Transfer Tips',
+    'author': 'Will wobrien@neb.com'
     }
 
 #list of commands which transfer liquid and mix, then return tip back to box
