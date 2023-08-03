@@ -12,7 +12,7 @@ metadata = {
 #Place NTPs in first x rows, place enzyme in last x rows
 
 #Number of Experiments (max 4, min 2)
-exps = 2
+exps = 4
 #Pick 12 time points (in minutes)
 timepoints = [0, 0.25, 0.5, 1, 2, 5, 7.5, 10, 12.5, 15, 17.5, 20]
 
